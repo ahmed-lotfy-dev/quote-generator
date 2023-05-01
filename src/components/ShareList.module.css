@@ -1,0 +1,24 @@
+.shareContainer {
+  width: 96%;
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #080808;
+  padding: 10px 5px 5px 5px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.shareHeading h3 {
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.ShareListButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+}
